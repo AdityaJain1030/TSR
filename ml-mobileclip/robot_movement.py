@@ -24,7 +24,7 @@ car.setServo('3', 95)
 save_path = "saved_images"
 os.makedirs(save_path, exist_ok=True)
 
-car.move(225, 225, 120)
+car.move(220, 220, 120)
 
 # # Initialize camera
 # cap.set(cv2.CAP_PROP_FRAME_WIDTH, 320)
